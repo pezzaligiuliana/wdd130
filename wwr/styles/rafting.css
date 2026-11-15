@@ -7,8 +7,8 @@
     /*Sea Green*/
     --accent2-color: #F7B226;
     /*sunflower Gold*/
-    --heading-font: "Nunito Sans", Georgia, sans-serif;
-    --body-font: "Open Sans", Arial, sans-serif;
+    --heading-font: Garamond, Georgia, sans-serif;
+    --body-font: Verdana, Arial, sans-serif;
 }
 
 * {
@@ -73,7 +73,7 @@ h1 {
     color: #ffffff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 410px;
     right: 0px;
