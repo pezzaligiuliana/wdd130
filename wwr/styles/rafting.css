@@ -5,7 +5,7 @@
     /*Linen*/
     --accent1-color: #156638;
     /*Sea Green*/
-    --accent2-color: #F7B226;
+    --accent2-color: #9A6F18;
     /*sunflower Gold*/
     --heading-font: Garamond, Georgia, sans-serif;
     --body-font: Verdana, Arial, sans-serif;
@@ -69,7 +69,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.85;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     color: #ffffff;
 }
 
