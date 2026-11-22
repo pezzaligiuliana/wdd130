@@ -114,7 +114,10 @@ h1 {
     width: 125px;
 }
 
-section {
+/*section*/
+
+section,
+footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
@@ -153,10 +156,15 @@ section p {
 /*footer */
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     border-top: 1px solid rgba(0 0 0 / .2);
+}
+
+footer p {
+    grid-column: 2/5;
+}
+
+.socialmedia {
+    grid-column: 5;
 }
 
 .socialmedia a {
